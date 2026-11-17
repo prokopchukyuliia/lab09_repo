@@ -26,6 +26,8 @@ int main()
 
     const string line = "+----------+-------------+-------------+--------+";
 
+    cout << "Table of ln(x+1) calculated by Taylor series" << endl;
+    cout << line << endl;
     cout << "| " << setw(8) << "x"
         << " | " << setw(11) << "ln(x+1)"
         << " | " << setw(11) << "series sum"
